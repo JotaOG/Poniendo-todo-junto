@@ -21,7 +21,7 @@ class PersonCard2 extends Component {
             this.setState({ age: this.state.age + 1 });
           }}
         >
-          Birthday Button for {this.props.firstName} {this.props.lastName}{" "}
+          Birthday Button for {this.props.firstName} {this.props.lastName}
         </button>
       </>
     );
